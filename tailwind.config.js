@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      body: ['Monsterrat', 'sans-serif'],
+    },
   },
   plugins: [],
 }
