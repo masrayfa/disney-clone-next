@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import Banner from '../components/Banner'
 import Header from '../components/Header'
 import { TV, Movie } from '../typings'
 
@@ -21,6 +22,7 @@ const Home: NextPage = () => {
 
       <main>
         <Header />
+        <Banner />
         <div>Home</div>
       </main>
     </div>

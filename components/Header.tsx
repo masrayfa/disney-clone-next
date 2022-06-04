@@ -36,7 +36,7 @@ const Header = () => {
           <input
             type="text"
             placeholder="Cari"
-            className="bg-transparent  outline-none"
+            className="border-b-[1px] bg-transparent outline-none focus:w-[400px] focus:border-[#1f80e0] focus:transition-all"
           />
           <span>
             <SearchIcon
